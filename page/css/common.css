@@ -1,0 +1,527 @@
+/*内外边距*/
+.pad0 {
+    padding: 0em;
+}
+.mar0 {
+    margin: 0em;
+}
+
+/*圆角，边线相关 radius border*/
+.borrad {
+    border-radius: 4px;
+}
+.borrad10 {
+    border-radius: 10px;
+}
+.borrad-t {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.borrad-b {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.bor-all {
+    border: 2px solid;
+}
+.bor0 {
+    /*border: 0em solid;*/
+    border: none;
+}
+.bor0px {
+    border: 0px;
+}
+.bor-t1 {
+    /*border: 0em;*/
+    border-top: 1px solid;
+}
+.bor-t {
+    /*border: 0em;*/
+    border-top: 2px solid;
+}
+.bor-b {
+    /*border: 0em;*/
+    border-bottom: 2px solid;
+}
+.bor-b1 {
+    /*border: 0em;*/
+    border-bottom: 1px solid;
+}
+.outline-no {
+    outline: none;
+}
+.outlineno {
+    outline: none;
+}
+/*虚线*/
+/*虚线*/
+.bor-t-dashed {
+    border-top: 2px dashed;
+}
+.bor-b-dashed {
+    border-bottom: 2px dashed;
+}
+.bor-b-dashed1 {
+    border-bottom: 1px dashed;
+}
+.bor-cole7 {
+    border-color: #E7E7E7;
+}
+.bor-col-e8 {
+    border-color: #E8E8E8;
+}
+.bor-col-df {
+    border-color: #df002b;
+}
+.bor-col-d5 {
+    border-color: #d5cac4;
+}
+.bor-col-39 {
+    border-color: #399df2;
+}
+.bor-col-24 {
+    border-color: #2470e7;
+}
+
+/*颜色*/
+/*透明度*/
+.opac0 {
+    opacity: 0;
+    -moz-opacity: 0;
+}
+/*透明度0.5*/
+.bagropa-05 {
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+.bagr-col-7b {
+    background-color: #7bc2ee;
+}
+.bagr-col-a3 {
+    background-color: #a3d0ef;
+}
+.bagrcol-e1 {
+    background-color: #e1eef7;
+}
+.bagrcol-e8 {
+    background-color: #e8e8e8;
+}
+.bagrcol-e7 {
+    background-color: #e7e7e7;
+}
+.bagrcol-00 {
+    background-color: #003B90;
+}
+.bagrcol-ff {
+    background-color: #FFFFFF;
+}
+.bagrcol-f4 {
+    background-color: #f4c600;
+}
+.bagrcol-fa {
+    background-color: #fafafa;
+}
+.bagr-col-1f {
+    background-color: #1f54a0;
+}
+.bagr-col-2e {
+    background-color: #2e79ba;
+}
+.bagr-col-98 {
+    background-color: #98cdf9;
+}
+.col-e8 {
+    color: #e8e8e8;
+}
+.col-00 {
+    color: #003B90;
+}
+.col-98 {
+    color: #989898;
+}
+.col-94 {
+    color: #949494;
+}
+.col-44 {
+    color: #444444;
+}
+.col-40 {
+    color: #404040;
+}
+.col-ff {
+    color: #FFFFFF;
+}
+.col-32 {
+    color: #323232;
+}
+.col-df {
+    color: #DF002B;
+}
+.col-f4 {
+    color: #f4c600;
+}
+.col-cc {
+    color: #ccc;
+}
+
+/*字体 font*/
+.fontfa-WRYH {
+    font-family: "微软雅黑";
+}
+.fontfa-FZDBS {
+    font-family: "方正大标宋";
+}
+.font-WRYH {
+    font-family: "微软雅黑";
+}
+.font-FZDBS {
+    font-family: "方正大标宋";
+}
+/*字体加粗*/
+.font-wei {
+    font-weight: bold;
+}
+.fontsize34 {
+    font-size: 1.0625em;
+}
+.fontsize32 {
+    font-size: 1em;
+}
+.fontsize30 {
+    font-size: 0.9375em;
+}
+.fontsize28 {
+    font-size: 0.875em;
+}
+.fontsize26 {
+    font-size: 0.8125em;
+    line-height: 120%;
+}
+.fontsize24 {
+    font-size: 0.75em;
+}
+.fontsize20 {
+    font-size: 0.625em;
+}
+/*字体水平，垂直居中*/
+.font-cen {
+    text-align: center;
+}
+/*大小*/
+
+/*输入框长度*/
+.hw-form {
+    width: 94%;
+}
+.w-90per {
+    width: 90%;
+}
+.w-80per {
+    width: 80%;
+}
+/*列表宽度分配*/
+.w-70per {
+    width: 70%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-60per {
+    width: 60%;
+}
+.w-40per {
+    width: 40%;
+}
+.w-20per {
+    width: 20%;
+}
+.w-10per {
+    width: 10%;
+}
+.h-auto {
+    width: 100%;
+    height: auto;
+}
+.hw-full {
+    height: 100%;
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.w-full {
+    width: 100%;
+}
+.hw-column130 {
+    width: 100%;
+    min-height: 4.0625em;
+}
+.hw-column120 {
+    width: 100%;
+    height: 3.75em;
+}
+.hw-column112 {
+    width: 100%;
+    height: 3.5em;
+}
+.hw-column100 {
+    width: 100%;
+    height: 3.125em;
+}
+.h-head {
+    height: 2.75em;
+}
+.nav-btn-pb {
+    min-height: 2em;
+    min-width: 4em;
+    display: -webkit-box !important;
+    display: box !important;
+    position: relative;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: end;
+    box-pack: end;
+}
+.h-inputdate {
+    display: inline-block;
+    text-align: right;
+    /*display: block;*/
+    height: 100%;
+    outline: none;
+}
+.hw-search1 {
+    width: 0.5em;
+}
+
+/*文字布局*/
+.txt-r {
+    text-align: right;
+}
+.txt-c {
+    text-align: center;
+}
+/*布局*/
+.pos-ab {
+    position: absolute;
+}
+.pos-fix {
+    position: fixed;
+}
+.pos-rel {
+    position: relative;
+}
+.box-pj {
+    -webkit-box-pack: justify;
+    box-pack: justify;
+}
+.pos-rtl {
+    direction: rtl;
+}
+.pos-opt-ltr {
+    direction: ltr;
+}
+
+/*隐藏*/
+/*隐藏仍占位*/
+.dis-hidden {
+    display: none;
+}
+/*隐藏不占位*/
+.dis-hiddenNo {
+    visibility: hidden
+}
+.dis-hiddenIM {
+    display: none !important;
+}
+/*去除默认样式和轮廓*/
+.rmv-outline {
+    outline: none;
+}
+
+/*图片引入*/
+.backimg {
+    background: url("../../img/leftarrowwhite.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.deleteimg {
+    background: url("../../img/delete.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.searchimg {
+    background: url("../../img/search.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.scanimg {
+    background: url("../../img/scan.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.baseinfoimg {
+    background: url("../../img/baseinfo.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.arrRiGrayimg {
+    background: url("../../img/arrowright_gray.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*暂无匹配车站*/
+.nostationimg {
+    background: url("../../img/nostation.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*暂无匹配项目*/
+.noprojectimg {
+    background: url("../../img/noproject.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*暂无匹配产品*/
+.noproductimg {
+    background: url("../../img/noproduct.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*未选择车站*/
+.nochosstaimg {
+    background: url("../../img/nochossta.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*未选择项目*/
+.nochosprojimg {
+    background: url("../../img/nochosproj.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*未选择产品*/
+.nochosprodimg {
+    background: url("../../img/nochosprod.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*暂无数据*/
+.nodataimg {
+    background: url("../../img/nodata.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*向右蓝色箭头*/
+.approval_simg {
+    background: url("../../img/approval_s.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*勾选图片*/
+.checkboxYesimg {
+    background: url("../../img/checkboxYes.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.checkboxNoimg {
+    background: url("../../img/checkboxNo.png") center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*去除外边框*/
+.outline0 {
+    outline: 0em;
+}
+/*w04选择框样式*/
+.selW04 {
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /*width: 100%;*/
+    /*font-size: 1.125em;
+     color: #949494;*/
+}
+/*字数限制*/
+.ulim100per {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim95per {
+    max-width: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim75per {
+    max-width: 75%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim-auto {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim5 {
+    max-width: 5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim8 {
+    max-width: 8em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim10 {
+    max-width: 10em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim11 {
+    max-width: 11em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim12 {
+    max-width: 13em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ulim14 {
+    max-width: 14em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*用于搜索栏*/
+.hw-searchinput {
+    height: 100%;
+    /*width: 15em;*/
+    /*width : 100%;*/
+    width: calc(100% - 3.28125em);
+}
+/*不换行*/
+.nowrap {
+    white-space: nowrap;
+}
+/*换行*/
+.wrap {
+    word-wrap: break-word;
+}
+.boxSizing {
+    box-sizing: border-box;
+}
+/*间隔线*/
+.hw-gap {
+    height: 0.625em;
+    width: 100%;
+}

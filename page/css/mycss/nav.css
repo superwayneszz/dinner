@@ -1,0 +1,42 @@
+.font-nav{
+    font-family: "微软雅黑";
+    font-size:0.9375em;
+}
+.font-tit{
+    font-family: "微软雅黑";
+    font-size:1.0625em;
+}
+.nav-left{
+    background: url("img/leftarrow.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 0.625em;
+    height: 1.125em;
+    padding: 0em;
+    margin-left: 0.75em;
+    margin-right: 0.625em;
+}
+
+.nav-edit-s{
+    background: url("img/edit_s.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1.125em;
+    height: 1.125em;
+    padding: 0em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+.my-nav{
+    height:2.75em;
+    line-height: 2.75em;
+    color:white;
+}
+.bg-nav{
+    background: #003b90;
+}
+.pos-btn-btm{
+    position:relative;
+    bottom:0px
+}

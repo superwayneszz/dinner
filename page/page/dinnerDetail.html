@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="../css/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/ui-box.css">
+	<link rel="stylesheet" href="../css/ui-base.css">
+	<link rel="stylesheet" href="../css/ui-color.css">
+	<link rel="stylesheet" href="../css/appcan.icon.css">
+	<link rel="stylesheet" href="../css/appcan.control.css">
+	<link rel="stylesheet" href="../css/hxCSS.css" />
+	<link rel="stylesheet" href="../css/mycss/detail.css" />
+	<link rel="stylesheet" href="../css/mycss/content.css" />
+	<link rel="stylesheet" href="../css/mycss/nav.css" />
+	<link rel="stylesheet" href="../css/common.css">
+	<style>
+		.red {
+			color: red;
+			font-weight: bolder;
+		}
+
+		.bg-b {
+			background: #003b90;
+			color: white;
+		}
+	</style>
+</head>
+
+<body class="um-vp" ontouchstart>
+<div id="page_0" class="up ub ub-ver bg-white" tabindex="0">
+	<!--header开始-->
+	<div id="header" class="uh bc-text-head ub font-WRYH">
+		<div class="nav-btn ub ub-ac ub-pc" id="nav-left">
+			<div class="fa fa-angle-left"></div>
+			<div style="margin-left: 0.5em;">
+				关闭
+			</div>
+		</div>
+		<div class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">
+			用餐凭证
+		</div>
+		<div class="nav-btn" id="nav-right"></div>
+	</div>
+	<!--header结束-->
+	<!--content开始-->
+	<div id="content" class="ub-f1 tx-l ub-ac ub-pc">
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7">当前时间：</b>
+				</div>
+				<div id="currentDt"></div>
+			</div>
+		</div>
+
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7">部门信息：</b>
+				</div>
+				<div id="departInfo"></div>
+			</div>
+		</div>
+
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7">用户信息：</b>
+				</div>
+				<div id="userInfo"></div>
+			</div>
+		</div>
+
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7">就餐地点：</b>
+				</div>
+				<div id="mealPlace" style="font-size:1.5em; !important"></div>
+			</div>
+		</div>
+
+
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7">订餐份数：</b>
+				</div>
+				<div id="cnt" style="font-size:1.5em; !important"></div>
+			</div>
+		</div>
+
+		<div class="list-uua">
+			<div class="ub mar-0101 ub-list">
+				<div class="ub-f1">
+					<b style="color: #2470e7"> 备注信息：</b>
+				</div>
+			</div>
+		</div>
+
+		<div class="list-uua1">
+			<div class="ub mar-0101 ub-list">
+				<div id="remark" style="width:100%"></div>
+			</div>
+		</div>
+		<div id="result" class="">
+			<div class="pad-1111 resultInner ub ub-pc">
+				<div id="mealAni" class="icon-uuasub"></div>
+			</div>
+			<div id="resultInfo1" class="tx-c myfont-s48 font-clb pad-mar-btm"></div>
+		</div>
+
+	</div>
+	<!--content结束-->
+</div>
+<!-- 	<script src="../js/appcan.js"></script>
+<script src="../js/appcan.control.js"></script>
+<script src="../js/appcan.scrollbox.js"></script>
+<script src="../js/app.common.js"></script>
+<script src="../js/app.config.js"></script>
+<script src="../js/appcan.request.js"></script>
+
+<script src="../lib/layer/3.1.1/mobile/layer.js"></script>
+<script src="../js/Cache.js"></script>
+<script src="../js/commonRequest.js"></script>
+	<script src="../js/commonFunctions.js"></script> -->
+	<script src="../js/jquery-3.1.0.min.js"></script>
+<script src="pagejs/dinnerDetail_Model.js"></script>
+<script src="pagejs/dinnerDetail_Controller.js"></script>
+<script src="pagejs/dinnerDetail_View.js"></script>
+<script>
+	$(document).ready(function() { //加载得到数据
+		//获取部门
+			/* var departInfo = Cache.DEPARTINFO_CACHE();
+			departInfo = JSON.parse(departInfo); */
+			var departInfo = {
+				departName: "108国铁系统部",
+				departCode: "108国铁系统部"
+			}
+		var departName = departInfo.departName;
+		var departCode = departInfo.departCode;
+		//获取数据
+		$("#departInfo").html('<b>' + departName + '</b>');
+			//var userInfo = commonFunctions.getUserInfo();
+			var userInfo = {
+				fullName: "李伟",
+				userId: 61876
+			}
+		$("#userInfo").html('<b>' + userInfo["fullName"] + "(" + userInfo["userId"] + ")" + '</b>');
+
+		
+		//获取当前时间
+		var date = new Date();
+		var currentDt = date.getFullYear() + "-" + parseInt(date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+		$("#currentDt").html('<b>' + currentDt + '</b>');
+		$("#resultInfo1").html("祝您用餐愉快，谢谢~");
+		/* 	appcan.button("#nav-left", "btn-act", function () {
+			//领取盒饭设置状态为2
+			DinnerDetailModel.editDinner("2", function(status) {
+				commonFunctions.message({
+					content: "领餐成功,请给阿姨确认！"
+				});
+				commonFunctions.closeWin(-1);
+			});
+			}); */
+		//初始化页面
+		DinnerDetailController.iniPage();
+	});
+
+	//拿到我的订餐信息
+
+		var date = new Date();
+		var currentDay = date.getFullYear() + "-" + parseInt(date.getMonth() + 1) + "-" + date.getDate();
+
+		var params = {
+			"action": 'getMealsInfo',
+			'empInfo': userInfo["userId"],
+			"createDate": currentDay,
+			"pageNum": 1,
+			"pageSize": 1000
+		};
+
+
+
+
+		var isHelpOthers = "0";
+		var helpOthersMealsCount = "0";
+		var remark = "";
+		var mealplaceName = "壹中心办公区";
+					$("#remark").html('<b>' + remark + '</b>');
+					$("#mealPlace").html('<b style="color:red" >' + mealplaceName + '</b>');
+
+					if(isHelpOthers == "1") { //需要帮忙订饭
+						$("#cnt").html('<b style="color:red">' + parseInt(parseInt(helpOthersMealsCount) + parseInt(1)) + '</b>');
+						//订餐数量信息
+						Cache.MEALCNT_CACHE(parseInt(parseInt(helpOthersMealsCount) + parseInt(1)));
+						//								appcan.setLocVal("myCnt", parseInt(parseInt(helpOthersMealsCount) + parseInt(1)));
+					} else {
+						$("#cnt").html('<b style="color:red">1</b>');
+			/* Cache.MEALCNT_CACHE(parseInt(1)); */
+						//								appcan.setLocVal("myCnt", parseInt(1));
+					}
+
+
+
+</script>
+</body>
+
+</html>

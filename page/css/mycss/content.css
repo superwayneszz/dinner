@@ -1,0 +1,121 @@
+.myfont{
+    font-family:"微软雅黑";
+    font-size:1em;
+}
+.bg-head{
+    background: #E8E8E8;
+}
+.bg-w{
+    background: #fff;
+}
+.list1{
+   height: 2.8125em; 
+   line-height: 2.8125em;
+}
+.list2{
+    height: 3.125em; 
+    line-height: 3.125em;
+}
+.uinn-8{
+    padding: 0em 1.09375em;
+}
+.bb{
+    border-bottom: 0.0625em solid #E8E8E8
+}
+.tc-dark{
+    color: #E8E8E8;
+}
+.tc-foot{
+    color: #003b90;
+}
+.icon-1{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/基本信息.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-2{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/销售.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-3{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/语音.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-4{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/修改.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-5{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/活动日期.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-6{
+    width:1.5625em;
+    margin:0em 0.625em;
+    background: url('img/出行日期.svg') no-repeat center center;
+    background-size: 100%;
+}
+.icon-right{
+    width:0.625em;
+    margin-left:0.46875em;
+    background: url('img/right_arrow@2x.png') no-repeat center center;
+    background-size: 100%;
+}
+.icon-down{
+    background: url("img/under_nav.png") no-repeat center center;
+    background-size: 100%;
+    height: 0.5em;
+    width: 0.8125em;
+    margin-left: 0.8125em;
+}
+.icon-tape{
+    width:3.1875em;
+    background: url('img/voiceRec_s.png') no-repeat center center;
+    background-size: 100%;
+}
+.icon-uuasub{
+    width:11em;
+    height:13em;
+    background: url('img/animate2.jpg') no-repeat center center;
+    /*background: url('img/animate1.png') no-repeat center center;*/
+    background-size: 100%;
+}
+.icon-uuaarv{
+    width:11em;
+    height:11em;
+    background: url('img/animate1.png') no-repeat center center;
+    background-size: 100%;
+}
+.icon-uuasubpass{
+    width:11em;
+    height:11em;
+    background: url('img/result_5.png') no-repeat center center;
+    background-size: 75%;
+}
+.icon-uuaother{
+    width:11em;
+    height:11em;
+    background: url('img/archive.png') no-repeat center center;
+    background-size: 60%;
+}
+.uuaReasonLabel{
+    width:48.6842%;
+}
+.umar-top{
+   margin-top: 0.46875em; 
+}
+.umar-left{
+    margin-left: 0.46875em;
+}
+.uba0{
+    border: 0px solid;
+}

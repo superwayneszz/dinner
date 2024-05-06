@@ -1,0 +1,379 @@
+
+#header {
+    background: #003b90;
+    font-size: 1.0625em;
+}
+#content {
+    overflow-y: auto;
+}
+#marks {
+    word-wrap: break-word;
+    padding: 0.875em;
+    width: 100%;
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.912em;
+    text-indent: 2em;
+    background: transparent;
+}
+.family-Yahei {
+    font-family: microsoft Yahei;
+}
+.bg-white {
+    background: #ffffff;
+}
+.lc-t {
+    color: #949494;
+}
+.rc-t {
+    color: #404040;
+}
+.color-gray {
+    color: #999999;
+}
+.nav-lf {
+    font-size: 0.9375em;
+}
+.nav-rt {
+    font-size: 0.9375em;
+}
+.scan {
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../../css/img/sm.png) no-repeat center;
+    background-size: auto 100%;
+}
+.cf:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.fl {
+    float: left;
+}
+.detailContainer {
+    position: relative;
+}
+.searchIcon {
+    display: block;
+    width: 1.912em;
+    height: 1.912em;
+    background: url(../../css/icons/icon-search-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+.nooutline {
+    border: none;
+    outline: 0;
+}
+.lineDashed-v {
+    border: 2px dashed #ccc;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+.lineDashed-h {
+    border: 2px dashed #ccc;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.height1_912em {
+    display: inline-block;
+    height: 1.912em;
+    line-height: 1.912em;
+}
+.height3_824em {
+    display: inline-block;
+    height: 3.824em;
+    line-height: 3.824em;
+}
+.padding-t {
+    padding-top: 0.475em;
+}
+
+.padding-b {
+    padding-bottom: 0.475em;
+}
+.padding-l {
+    padding-left: 0.475em;
+}
+.padding-l2 {
+    padding-left: 0.950em;
+}
+.padding-r {
+    /* padding-right: 0.475em; */
+    padding-right: 0.950em;
+}
+.margin-l {
+    margin-left: 0.475em;
+}
+.margin-r {
+    margin-right: 0.475em;
+}
+.margin-t {
+    margin-top: 0.475em;
+}
+.margin-t2 {
+    margin-top: 0.950em;
+}
+.margin-b {
+    margin-bottom: 0.475em;
+}
+.margin-b2 {
+    margin-bottom: 0.950em;
+}
+.border-left-right-radius {
+    position: relative;
+    border: 1px solid #999;
+    border-radius: 0.956em;
+}
+
+.align-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-vmiddle {
+    vertical-align: middle;
+}
+.searchArea {
+    padding: 0.3em;
+    border: 1px solid #333;
+    height: 2.512em;
+    background: #333;
+}
+.width-0800 {
+    width: 80%;
+}
+.text-g {
+    color: #888;
+    font-family: "微软雅黑"
+}
+.text-b {
+    color: #2470e7;
+}
+.text-y {
+    color: #f4c600;
+}
+.bg-666 {
+    background: #666;
+}
+.searchText {
+    position: relative;
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.912em;
+    height: 1.912em;
+    text-indent: 0.875em;
+    background: transparent;
+}
+.my-list {
+    background-color: #fff;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 0.406em;
+    padding-top: 0.406em;
+}
+.my-ul {
+    margin-bottom: 0.435em;
+}
+.bb {
+    box-sizing: border-box;
+}
+.border-radiu-list {
+    border-top-left-radius: 0.985em;
+    border-bottom-left-radius: 0.985em;
+}
+
+.flex-50 {
+    display: inline-block;
+    width: 50%;
+}
+.flex-70 {
+    display: inline-block;
+    width: 70%;
+}
+.myword-break {
+    word-break: break-all;
+}
+/*自定义input样式*/
+.inputAmount {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 1em;
+    color: #000;
+    line-height: 1.912em;
+    height: 1.912em;
+    text-indent: 0.875em;
+    background: transparent;
+}
+/*自定义添加按钮*/
+.deleteBtn {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #E84747 url(../../css/icons/icon-close-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+.deleteBtnPosition {
+    position: relative;
+    /*top:0.81225em;*/
+    left: 5em;
+}
+.deleteBtn2Position {
+    /*position:absolute;
+     top:0.81225em;
+     right:1em;*/
+}
+.img-add {
+    width: 1.1875em;
+    height: 1.1875em;
+    background: url('img/addList.png') no-repeat center center;
+    background-size: 100%;
+}
+.Ticket-add {
+    width: 1.1875em;
+    height: 1.1875em;
+    background: url('img/addTicket.png') no-repeat center center;
+    background-size: 100%;
+}
+.addplane {
+    width: 1.1875em;
+    height: 1.1875em;
+    background: url('img/airplane.png') no-repeat center center;
+    background-size: 100%;
+}
+.addBtn {
+    display: inline-block;
+    position: absolute;
+    top: 0.81225em;
+    right: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #E84747 url(../../css/icons/icon-close-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+/*CSS.计数器*/
+#travelList {
+    counter-reset: tripNumber 0;
+}
+#travelList > li {
+    counter-increment: tripNumber 1;
+}
+#travelList > li .tripNum:before {
+    content: counter(tripNumber);
+}
+/*CSS.计数器 记录票务*/
+.ticketList > ul {
+    counter-reset: ticketNumber 0;
+}
+.ticketList > ul > li {
+    counter-increment: ticketNumber 1;
+}
+.ticketList > ul > li .ticketNum:before {
+    content: counter(ticketNumber);
+}
+/*自定义checkbox样式*/
+[type="checkbox"]+ label.labelCheck {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    width: 1.912em;
+    height: 1.912em;
+    border-radius: 50%;
+    background: #E84747 url(../../css/icons/icon-close-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+[type="checkbox"]:checked+ label.labelCheck {
+    display: inline-block;
+    width: 1.912em;
+    height: 1.912em;
+    border-radius: 50%;
+    background: #78E42E url(../../css/icons/icon-ok-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+[type="checkbox"]+ label.labelSelect {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 0.956em;
+    width: 1.912em;
+    height: 1.912em;border：2px solid #AAA;
+    border-radius: 50%;
+    background: #CCCCCC;
+    background-size: auto 100%;
+}
+[type="checkbox"]:checked+ label.labelSelect {
+    display: inline-block;
+    width: 1.912em;
+    height: 1.912em;
+    border-radius: 50%;
+    background: #78E42E url(../../css/icons/icon-ok-act.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+/*自定义订餐卡贴*/
+.diyDinnerCard {
+    width: 66.6666667%;
+    height: 4em;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 3px 5px #d8d8d8;
+    -webkit-box-shadow: 0px 3px 5px #d8d8d8;
+}
+
+.diyDinnerCard_remark {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 3px 5px #d8d8d8;
+    -webkit-box-shadow: 0px 3px 5px #d8d8d8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.DinnerCardC {
+    width: 2em;
+    height: 2em;
+    background: url('../img/bag.png') no-repeat;
+    background-size: contain;
+}
+.DinnerCardP {
+    width: 2em;
+    height: 2em;
+    background: url('../img/dinnerP.png') no-repeat;
+    background-size: contain;
+}
+.DinnerCardBook {
+    width: 2em;
+    height: 2em;
+    background: url('../img/book.png') no-repeat;
+    background-size: contain;
+}
+.DinnerCardCert {
+    width: 2em;
+    height: 2em;
+    background: url('../img/cert.png') no-repeat;
+    background-size: contain;
+}
+.DinnerCardS {
+    width: 2em;
+    height: 2em;
+    background: url('../img/statics.png') no-repeat;
+    background-size: contain;
+}
+.count-icon {
+    width: 1.1875em;
+    height: 1.1875em;
+    background: url('../img/count.png') no-repeat center center;
+    background-size: 100%;
+}
+.nodata-img {
+    width: 5em;
+    height: 5em;
+    background: url('../img/nodata.png') no-repeat;
+    background-size: contain;
+}
